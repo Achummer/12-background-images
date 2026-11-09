@@ -1,0 +1,164 @@
+/* ---------- Colors ---------- */
+:root {
+    --orange: #f4934b;
+    --blue: #1d93bb;
+    --teal: #bfe8e2;
+    --cream: #fcf8ec;
+    --text: #222222;
+    --code-bg: #fff6ee;
+    --code-border: #f6d9c2;
+    --white: #ffffff;
+}
+
+/* ---------- Page ---------- */
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--text);
+    background-color: var(--teal);
+    background-image: url(images/pattern.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/* ---------- Header ---------- */
+.site-header {
+    background-color: var(--orange);
+    border-bottom: 4px solid var(--blue);
+    padding: 30px 0 18px 0;
+}
+
+.header-content {
+    width: 660px;
+    margin: 0 auto;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.site-title {
+    margin: 0 0 12px 0;
+    font-family: "Pacifico", cursive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 70px;
+    color: var(--white);
+}
+
+.nav-list {
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    padding: 4px 16px;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    color: var(--white);
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* ---------- Hero banner ---------- */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 480px;
+    border-bottom: 4px solid var(--blue);
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 14px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+/* ---------- Content card ---------- */
+.card {
+    width: 660px;
+    margin: 40px auto 30px auto;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: var(--cream);
+}
+
+.card-header {
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #f0dcc0;
+}
+
+.card-title {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    color: var(--blue);
+}
+
+.card-subtitle {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--orange);
+}
+
+.tags {
+    margin: 0 0 20px 0;
+}
+
+.code-chip {
+    padding: 3px 6px;
+    border: 1px solid var(--code-border);
+    border-radius: 4px;
+    background-color: rgb(248, 234, 209);
+    font-family: "Source Code Pro", monospace;
+    font-size: 15px;
+    color: rgb(255, 102, 0);
+}
+
+.text-link {
+    color: var(--blue);
+    text-decoration: underline dotted;
+}
+
+/* ---------- Callout box ---------- */
+.callout {
+    width: 660px;
+    margin: 0 auto 80px auto;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-left: 6px solid var(--orange);
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.callout-title {
+    margin: 0 0 10px 0;
+    font-family: "Pacifico", cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.callout p {
+    margin: 0;
+}
